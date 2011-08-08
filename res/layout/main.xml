@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="輸入車號"
+    />
+<EditText android:id="@+id/carnumber"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp">
+		<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="車體外表                                 "    
+    />
+ <Button 
+    android:id="@+id/preview"             
+    android:layout_width="wrap_content"             
+    android:layout_height="wrap_content"             
+    android:text="瀏覽"              
+    />
+	</LinearLayout>
+<ImageView
+    android:src="@drawable/taxi"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="10dp">
+<Button 
+    android:id="@+id/confirm"             
+    android:layout_width="wrap_content"             
+    android:layout_height="wrap_content"             
+    android:text="確認"              
+    />
+ <Button 
+    android:id="@+id/cancel"             
+    android:layout_width="wrap_content"             
+    android:layout_height="wrap_content"             
+    android:text="取消"              
+    />
+	</LinearLayout>
+
+</LinearLayout>
